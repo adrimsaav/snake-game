@@ -1,3 +1,44 @@
 body {
-    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'VT323', monospace; 
+}
+
+body, .snake {
+    background-color: #feedf2;
+}
+
+#game-board {
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    margin: 5px;
+}
+
+.game-border-1 {
+    border: #ffabbe solid 10px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 10px #ffabbe;
+}
+
+.game-border-2 {
+    border: #ffdde5 solid 8px;
+    border-radius: 26px;
+    box-shadow: inset 0 0 0 10px #ffdde5;
+}
+
+.game-border-3 {
+    border: #ffc1cf solid 30px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 5px #ffc1cf;
+}
+
+#instruction-text {
+    position: absolute;
+    top: 60%;
+    color: #ff617c;
 }
