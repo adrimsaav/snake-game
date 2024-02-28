@@ -40,7 +40,7 @@ body, .snake {
 #instruction-text {
     position: absolute;
     top: 60%;
-    color: #ff617c;
+    color: #ff98a9;
     width: 300px;
     text-align: center;
     padding: 30px;
@@ -64,4 +64,9 @@ body, .snake {
 
 #highScore {
     color: #ffdde5;
+    display: none;
+}
+
+.game-border-3, #logo {
+    background: 
 }
