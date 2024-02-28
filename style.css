@@ -8,7 +8,7 @@ body {
 }
 
 body, .snake {
-    background-color: #feedf2;
+    background-color: #fff0f5;
 }
 
 #game-board {
@@ -41,4 +41,27 @@ body, .snake {
     position: absolute;
     top: 60%;
     color: #ff617c;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+}
+
+#score {
+    color: #ffc1cf;
+}
+
+#score, #highScore {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+#highScore {
+    color: #ffdde5;
 }
