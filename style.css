@@ -68,5 +68,18 @@ body, .snake {
 }
 
 .game-border-3, #logo {
-    background: 
+    background: #ffc1cf;
+}
+
+.snake {
+    border: #ffabbe 1px dotted;
+}
+
+.food {
+    background-color: #ffdde5;
+    border: #ffabbe 5px solid;
+}
+
+#logo {
+    position: absolute;
 }
